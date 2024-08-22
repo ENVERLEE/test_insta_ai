@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성격 질문</title>
+</head>
+<body>
+    <h1>성격 질문</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <p>{{ form.question_1.label }}<br>{{ form.question_1(size=50) }}</p>
+        <p>{{ form.question_2.label }}<br>{{ form.question_2(size=50) }}</p>
+        <p>{{ form.question_3.label }}<br>{{ form.question_3(size=50) }}</p>
+        <p>{{ form.question_4.label }}<br>{{ form.question_4(size=50) }}</p>
+        <p>{{ form.question_5.label }}<br>{{ form.question_5(size=50) }}</p>
+        <p>{{ form.question_6.label }}<br>{{ form.question_6(size=50) }}</p>
+        <p>{{ form.question_7.label }}<br>{{ form.question_7(size=50) }}</p>
+        <p>{{ form.question_8.label }}<br>{{ form.question_8(size=50) }}</p>
+        <p>{{ form.question_9.label }}<br>{{ form.question_9(size=50) }}</p>
+        <p>{{ form.question_10.label }}<br>{{ form.question_10(size=50) }}</p>
+        <p>{{ form.submit() }}</p>
+    </form>
+</body>
+</html>
